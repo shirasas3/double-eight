@@ -1,0 +1,7 @@
+.GraphsPage {
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+    margin-right: 3%;
+    justify-self: center;
+}

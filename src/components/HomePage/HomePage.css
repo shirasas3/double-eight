@@ -1,0 +1,85 @@
+.HomePage {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+.HomePage-title {
+    top: 10%;
+    font-size: 3rem;
+    position: absolute;
+}
+
+.upload-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-container p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+/* .upload-files {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    height: 67%;
+    border: 2px dashed #ccc;
+    position: absolute;
+} */
+
+.upload-files p {
+    width: 8%;
+    height: 5%;
+    font-size: 1.2rem;
+    color: #666;
+    /* text-align: center; */
+    top: 26%;
+    position: absolute;
+}
+
+.upload-btn {
+    position: absolute;
+    background-color:rgb(233, 231, 231);
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 20%;
+    /* margin-right: 2%; */
+    position: absolute;
+}
+
+.analyze-btn {
+    top: 25%;
+    position: absolute;
+}
+
+.analyze-btn span {
+    font-size: 1.3rem;
+}
+
+.buttons {
+    display: flex;
+    width: 18%;
+    left: 1%;
+    top: 5%;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.btn {
+    background-color: rgb(194, 233, 212);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}

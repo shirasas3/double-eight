@@ -1,0 +1,21 @@
+@font-face {
+    font-family: rubik;
+    src: url("fonts/Rubik-VariableFont_wght.ttf");
+}
+
+html, body {
+    height: 100%;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: rubik;
+}
+
+.App {
+    height: 100vh;
+}

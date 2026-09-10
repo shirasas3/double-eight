@@ -1,0 +1,16 @@
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.LoadingPage {
+  width:20%;
+  height:20%;
+  top:40%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  justify-self:center;
+  position:absolute;
+}
