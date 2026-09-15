@@ -22,7 +22,7 @@ const GraphsPage = ({mainData, crossData, closeCircles, fullEight, targetPoint})
         //  label: "Target Square"},
         // { id: 's4', data: crossData, label: 'crosses', markerSize: 3},
         // { id: 's5', data: closeCircles, label: 'close circles', markerSize: 3},
-        { id: 's6', data: fullEight, label: "full eight", markerSize: 4}];
+        { id: 's6', data: fullEight, label: "full eight", markerSize: 2}];
          
 
     const LinkPoints = ({ seriesId, close }) => {

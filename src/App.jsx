@@ -212,10 +212,10 @@ const App = () => {
       console.log(max)
       console.log(min)
 
-      for (let i = 0 ; i < min ; i++) {
+      for (let i = min-2450 ; i < min ; i++) {
         eightCords.push({x: cords[i][0], y: cords[i][1], id: i*100000000000000000000000});
       }
-      for (let i = max; i < cords.length; i++) {
+      for (let i = max - 2000 ; i < max; i++) {
         eightCords.push({x: cords[i][0], y: cords[i][1], id: i*10000000000000000});
       }
 
@@ -268,4 +268,3 @@ const App = () => {
 }
 
 export default App
-
