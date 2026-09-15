@@ -193,6 +193,7 @@ const App = () => {
 
     const checkIfTwoCircles = (time) => {
       const maxTimeDelta = 110000;
+      const circlrDelta = 2450;
       const cordTime = [];
       const closeByCords = [];
       const eightCords = [];
@@ -212,10 +213,10 @@ const App = () => {
       console.log(max)
       console.log(min)
 
-      for (let i = min-2450 ; i < min ; i++) {
+      for (let i = min - circlrDelta ; i < min ; i++) {
         eightCords.push({x: cords[i][0], y: cords[i][1], id: i*100000000000000000000000});
       }
-      for (let i = max - 2000 ; i < max; i++) {
+      for (let i = max - circlrDelta ; i < max; i++) {
         eightCords.push({x: cords[i][0], y: cords[i][1], id: i*10000000000000000});
       }
 
